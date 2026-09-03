@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 30px;
+}
+
+.gallery {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px 30px;
+}
+
+.gallery img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
