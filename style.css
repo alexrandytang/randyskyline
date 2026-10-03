@@ -8,6 +8,22 @@ body {
 
 header {
     padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    font-size: clamp(24px, 10vw, 96px);
+    white-space: nowrap;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(236, 186, 111);
+    font-size: clamp(24px, 10vw, 36px);
+    white-space: nowrap;
 }
 
 .gallery {
