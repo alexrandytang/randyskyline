@@ -22,7 +22,7 @@ h1 {
 p {
     font-family: "Courier New", Courier, monospace;
     color: rgb(236, 186, 111);
-    font-size: clamp(8px, 10vw, 36px);
+    font-size: clamp(8px, 5vw, 36px);
     white-space: nowrap;
 }
 
@@ -36,4 +36,22 @@ p {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    p {
+        font-size: 6vw;
+    }
+
+    .gallery {
+        padding: 0 15px 15px;
+    }
 }
