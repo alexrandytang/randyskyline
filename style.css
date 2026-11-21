@@ -23,7 +23,7 @@ h1 {
 p {
     font-family: "Courier New", Courier, monospace;
     color: rgb(236, 186, 111);
-    font-size: 0.3em;
+    font-size: 0.25em;
     white-space: nowrap;
 }
 
@@ -41,7 +41,7 @@ p {
 
 @media (max-width: 600px) {
     header {
-        padding: 15px;
+        padding: 10px;
     }
 
     h1 {
