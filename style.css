@@ -9,12 +9,13 @@ body {
 header {
     padding: 30px;
     text-align: center;
+    font-size: clamp(1rem, 1.5rem + 6vw, 10rem);
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: blanchedalmond;
-    font-size: clamp(24px, 10vw, 96px);
+    font-size: 1em;
     white-space: nowrap;
     font-variant: small-caps;
 }
@@ -22,7 +23,7 @@ h1 {
 p {
     font-family: "Courier New", Courier, monospace;
     color: rgb(236, 186, 111);
-    font-size: clamp(8px, 8vw, 36px);
+    font-size: 0.3em;
     white-space: nowrap;
 }
 
@@ -45,10 +46,6 @@ p {
 
     h1 {
         font-size: 12vw;
-    }
-
-    p {
-        font-size: 1.9vw;
     }
 
     .gallery {
