@@ -18,13 +18,16 @@ h1 {
     font-size: 1em;
     white-space: nowrap;
     font-variant: small-caps;
+    margin-bottom: 10px;
 }
 
 p {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Arial", Courier, monospace;
     color: rgb(236, 186, 111);
-    font-size: 0.25em;
+    font-size: 0.4em;
     white-space: nowrap;
+    /* font-variant: small-caps; */
+    margin-top: 0;
 }
 
 .gallery {
@@ -41,8 +44,16 @@ p {
 
 @media (max-width: 600px) {
     header {
-        padding: 10px;
+        padding: 20px;
     }
+
+    /* h1 {
+        padding: 1px 1px;
+    }
+
+    p {
+        padding: 1px 1px;
+    } */
 
     .gallery {
         padding: 0 10px 15px;
